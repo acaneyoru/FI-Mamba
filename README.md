@@ -212,30 +212,6 @@ Values are mean ± standard deviation. They are manuscript results, not automati
 | Branch/scale alignment | `MultiScaleAlignmentLoss` |
 | Complete network | `FIMamba` |
 
-## Scope and limitations
-
-- This file is a transparent research scaffold, not a clinical product.
-- The diagonal recurrence favors readability over CUDA efficiency.
-- Exact reproducibility requires the original preprocessing, patient-level split lists, random seeds, optimized kernels, and model checkpoints.
-- The current repository must not be used for diagnosis or treatment decisions.
-- No license is granted unless a license file is added by the authors.
-
-## Citation
-
-If this work is useful to your research, please cite the manuscript. Author and venue fields should be replaced after the paper's bibliographic record is finalized.
-
-```bibtex
-@article{fimamba2026,
-  title   = {FI-Mamba: Frequency-Domain Lossless Mamba with Prior Collaboration,
-             Isotropic Unbiased State-Space Learning and Multi-Scale CLIP
-             for Perinatal Brain Ultrasound Image Classification},
-  author  = {Author information to be updated},
-  journal = {Manuscript},
-  year    = {2026},
-  note    = {Code available at https://github.com/acaneyoru/FIMamba}
-}
-```
-
 ## Acknowledgments
 
 This implementation is conceptually related to:
